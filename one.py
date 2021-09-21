@@ -20,3 +20,17 @@ else:
     print("Invalid Input!!!")
 
     
+if avg>=99 and avg>=100:
+    print("Your Grade is A")
+elif avg>=90 and avg<=98:
+    print("Your Grade is B")
+elif avg>=80 and avg<=89:
+    print("Your Grade is C")
+elif avg>=71 and avg<=79:
+    print("Your Grade is D")
+elif avg>=61 and avg<=70:
+    print("Your Grade is E")
+elif avg<=60:
+    print("Your Grade is F")
+else:
+    print("INVALID")
