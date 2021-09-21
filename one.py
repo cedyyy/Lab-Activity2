@@ -1,18 +1,20 @@
-print("Enter Marks Obtained in the whole se ")
-print("Prelim")
+print("Enter Marks Obtained in the whole sem ")
+print("PRELIMS ")
 pre = int(input())
-print("Midterm")
+print("MIDTERMS ")
 mid = int(input())
-print("Semis")
+print("SEMIS-FINALS")
 semis = int(input())
-print("Finals")
+print("FINALS")
 fina = int(input())
 
 
 tot = pre + mid + semis + fina
 avg = tot/4
 
-if avg >=75:
-    print(" You Passed ")
-else :
-    print("You Failed")
+if avg>=75:
+    print("You're so awesome you passed")
+elif avg<75:
+    print("it's okay better luck next time")
+else:
+    print("Invalid Input!!!")
